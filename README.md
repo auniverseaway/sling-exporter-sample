@@ -22,4 +22,9 @@ Number three is Sling Model Exporter OOTB behavior where character encoding is n
 Screenshots with specific highlights callingout the issue can be found here: https://github.com/auniverseaway/sling-exporter-sample/tree/master/readme-assets
 
 # Expectations
-The Jackson / JSON implementation of the Sling Model exporter should correctly output `UTF-8` as it is the standard character encoding for `application/json` content types.
+The Jackson / JSON implementation of the Sling Model exporter should correctly output `UTF-8` (or 16 / 32) as it is the standard character encoding for `application/json` content types.
+
+# Research
+* https://tools.ietf.org/html/rfc4627#section-3
+* https://lists.apache.org/thread.html/6bce5ca15e9e06b3369eb78161a4cea9ece802e6651a9b5ee6772fa8@%3Cusers.sling.apache.org%3E
+* https://github.com/eclipse/jetty.project/blob/master/jetty-http/src/main/resources/org/eclipse/jetty/http/encoding.properties
