@@ -17,4 +17,4 @@ Once Sling 9 is running on localhost:8080...
 2. http://localhost:8080/content/millr/sample-jp.servlet.json - Custom Servlet + Model + Jackson works great.
 3. http://localhost:8080/content/millr/sample-jp.model.json - Sling Model Exporter does not.
 
-Number three is OOTB behavior where character encoding is not set, so it defaults to `ISO-8859-1` which causes issues with many pieces of localized content.
+Number three is Sling Model Exporter OOTB behavior where character encoding is not set, so it defaults to `ISO-8859-1` which causes issues with many pieces of localized content.
