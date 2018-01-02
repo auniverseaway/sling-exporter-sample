@@ -1,0 +1,6 @@
+{
+    "jcr:primaryType": "nt:unstructured",
+    "sling:resourceType": "millr/sling/exporter/sample",
+    "title": "これはテストです",
+    "description": "これは説明です。"
+}

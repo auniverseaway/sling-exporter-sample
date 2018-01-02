@@ -1,0 +1,6 @@
+{
+    "jcr:primaryType": "nt:unstructured",
+    "sling:resourceType": "millr/sling/exporter/sample",
+    "title": "This is a test",
+    "description": "This is the description."
+}
